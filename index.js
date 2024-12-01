@@ -1,7 +1,7 @@
 const express = require('express')()
 
 express.get('/',(req,res)=>{
-    res.send('welcome')
+    res.send('welcome render')
 })
 
 
